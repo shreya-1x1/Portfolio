@@ -1,0 +1,52 @@
+.sidebar {
+height: 100vh; 
+background-color:#343a40; /* Dark background */
+padding: 20px;
+}
+.sidebar h1 {
+color: white;
+}
+.sidebar a {
+display: block;
+color: white;
+text-decoration: none;
+padding: 10px;
+margin: 5px 0;
+border-radius: 5px;
+}
+.sidebar a:hover {
+background-color:grey;
+}
+
+
+.page-header
+{
+	background-color:#f9caf6;
+	padding:10px;
+}
+
+.page-header-form
+{
+	background-color:#FFAA33;
+	padding:10px;
+}
+
+
+.page-header-table
+{
+	background-color:#ADD8E6;
+	padding:10px;
+}
+
+
+
+.glyphicon {
+            font-size: 50px;
+            color: #007bff;
+}
+
+.login-form{
+	background-color:#E5E4E2;
+	border-radius: 8px;
+	padding :20px;
+}

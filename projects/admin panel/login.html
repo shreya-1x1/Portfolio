@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>MoltoCare-Trusted Guide</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+<br><br><br>
+
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+</div>
+<div class="col-md-4">
+<div class="login-form">
+<div class="text-center">
+<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+</div>
+<h1 class="text-center">Login</h1>
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+ <button type="button" class="btn btn-primary" onclick="goToDashboard()">Submit</button>
+
+    <script>
+        function goToDashboard() {
+            window.location.href = "admin1.html"; // Ensure dashboard.html exists in the same directory
+        }
+    </script>
+</form> 
+</div>
+</div>
+<div class="col-md-4">
+</div>
+</div>
+</div>
+
+
+<!-- jQuery & Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

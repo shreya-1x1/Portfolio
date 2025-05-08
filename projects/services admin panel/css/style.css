@@ -1,0 +1,138 @@
+.hero-section {
+    background-image: url('images/3.jpg'); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+	
+    height: 200px; /* Adjust height as needed */
+    color: white;
+}
+
+.hero-section h3 {
+  font-size: 60px; /* Adjust as needed */
+  font-weight: bold;
+}
+.hero-section h1 {
+  font-size: 40px; /* Adjust as needed */
+  font-weight: bold;
+}
+
+
+.form-box {
+    border: 1px solid red;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(255, 0, 0, 0.2);
+    background-color: #fff;
+}
+.btn{
+	    background-color:red;
+    border-color: darkred;
+	font-size: 15px; /* Adjust as needed */
+  font-weight: bold;
+	
+}
+
+.sidebar {
+    background-image: url('images/u14.png'); /* Ensure the correct path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* Enables overlay */
+    height: 125vh; /* Full viewport height */
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.sidebar h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Sidebar Links */
+.sidebar a {
+    display: block;
+    width: 80%;
+    text-align: center;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.4); /* Semi-transparent gray */
+    text-decoration: none;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 1px solid white; /* Black border */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.sidebar a:hover {
+    background-color: rgba(128, 128, 128, 0.7); /* Darker gray on hover */
+    transform: scale(1.05);
+}
+
+
+/* Logout Link */
+.sidebar a.text-danger {
+    color: #ff4d4d; /* Red for logout */
+    font-weight: bold;
+}
+
+.sidebar a.text-danger:hover {
+    background-color: rgba(255, 77, 77, 0.6);
+    color: white;
+}
+
+
+.thumbnail{
+	border: 1px solid red;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(255, 0, 0, 0.2);
+    background-color: #fff;
+}
+	
+.image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.service-logo {
+    width: 60px;  
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), 
+                -3px -3px 8px rgba(255, 255, 255, 0.6);
+    margin-bottom: -30px; /* Move icon slightly over the image */
+    z-index: 1;
+}
+
+.service-logo img {
+    width: 32px;  
+    height: 32px;
+    object-fit: contain;
+}
+
+
+
+.whatsapp a:hover {
+	text-decoration:none;
+    color: red; /* Red for logout */
+    font-weight: bold;
+}

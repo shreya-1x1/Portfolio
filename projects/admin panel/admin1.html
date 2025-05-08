@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>Admin Panel</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+
+<div class="container-fluid">
+<div class="row">
+<!-- Sidebar -->
+<div class="col-md-2 sidebar">
+<h1><strong>Admin</strong></h1>
+<a href="admin1.html">Dashboard</a>
+<a href="table.html">Table</a>
+<a href="form.html">Form</a>
+<a href="">Gallery</a>
+<a href="login.html" class="text-danger">Logout</a>
+</div>
+
+
+<div class="col-md-10">
+<div class="page-header">
+<h1>Dashboard</h1>
+</div>
+<div class="row">
+<div class="col-md-3">
+<div class="p-3 mb-2 bg-primary text-black">
+<h2>Total Products</h2>
+<h3>120</h3>
+</div>
+</div>
+
+
+<div class="col-md-3 ">
+<div class="p-3 mb-2 bg-info text-dark">
+<h2>Active Products</h2>
+<h3>95</h3>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="p-3 mb-2 bg-danger text-white">
+<h2>Low Stock</h2>
+<h3>15</h3>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="p-3 mb-2 bg-warning text-dark">
+<h2>Out of Stock</h2>
+<h3>10</h3>
+</div>
+</div>
+</div>
+
+<br>
+
+<div class="row">
+<div class="col-md-6">
+<h2>Top Selling Products</h2>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Product</th>
+      <th scope="col">sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Product A</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>Product B</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <td>Product C</td>
+      <td>100</td>
+    </tr>
+
+</table>
+</div>
+
+
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Monthly Sales</h5>
+            <canvas id="salesChart"></canvas>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var ctx = document.getElementById('salesChart').getContext('2d');
+        var salesChart = new Chart(ctx, {
+            type: 'bar', // Change to 'line', 'pie', etc., if needed
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                datasets: [{
+                    label: 'Sales',
+                    data: [100, 200, 150, 300, 250, 400],
+                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    });
+</script>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+<!-- jQuery & Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

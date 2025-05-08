@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  </head>
+  <body>
+
+    <!-- Particles.js container -->
+    <div id="particles-js"></div>
+
+    <header>
+      <nav class="navbar navbar-expand-md top">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="logo">
+                <i class="fa-solid fa-s"></i>
+                <div class="logo-text">Shreya S</div>
+              </div>
+            </div>
+            <div class="col-md-4 right-section">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="project.html">Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="hero-text">
+        <h5>Hi I'm <span class="input">AIML Engineer</span></h5>
+        <h1>Shreya S</h1>
+        <p><b>
+          I am a 21-year-old BE pursuing student passionate about learning new technologies.
+          <br>Ambitious, career-focused job seeker, excited to put on my skills in a professional
+          <br>environment to build my career.
+        </b></p>
+        <br>
+        <div class="btn-group">
+          <a href="cover_letter.html" class="btn active">Cover Page</a>
+          <a href="contact.html" class="btn">Contact</a>
+        </div>
+        <div class="social">
+          <a href="https://wa.me/6366590375" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/shreya-s-a83411280/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://instagram.com/__shreya.s___" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-pic">
+        <img src="img/Shreya.jpg" alt="profile pic" />
+      </div>
+    </div>
+  <footer class="text-center mt-5">
+    <p>&copy; 2025 Shreya S. All rights reserved.</p>
+  </footer>
+    <!-- Typed.js for text animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+
+    <script>
+      // Initialize particles.js
+      particlesJS('particles-js', {
+        "particles": {
+          "number": {
+            "value": 80,
+            "density": {
+              "enable": true,
+              "value_area": 800
+            }
+          },
+          "color": {
+            "value": "#ffffff"
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": true,
+            "anim": {
+              "enable": true,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": true,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 6,
+            "direction": "none",
+            "random": true,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false
+            }
+          }
+        },
+        "retina_detect": true
+      });
+
+      // Initialize Typed.js for text animation
+      const typed = new Typed(".input", {
+        strings: ["Frontend Developer", "UX Designer", "Web Developer"],
+        typeSpeed: 70,
+        backSpeed: 55,
+        loop: true
+      });
+    </script>
+  </body>
+</html>

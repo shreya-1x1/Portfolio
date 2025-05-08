@@ -1,0 +1,39 @@
+ .navbar-nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 15px;
+        }
+		
+ .navbar-nav a {
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+            color: #000;
+            font-weight: bold;
+        }	
+
+.btn-black {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.bg-dark {
+	background-color: #1c231f;
+
+}
+.text-white {
+	color: white;
+}
+.footer a{
+	text-decoration: none;
+    color:white;
+	display: flex;
+	
+}
+
+	
+.p-4 {
+        padding: 20px; 
+    }

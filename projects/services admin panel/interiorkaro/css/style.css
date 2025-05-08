@@ -1,0 +1,146 @@
+.menu{
+background-color:#bfdefd;
+    padding: 20px;
+}
+.navbar-default{
+	background-color:#dfeffe;
+    padding: 5px;
+	font-size: 16px;
+	border-radius:20px;
+	font-weight: bold;
+}
+	
+.navbar-default .navbar-nav > li > a {
+	color: black;
+	font-weight: bold;
+	padding: 10px 20px;
+	transition: 0.3s;
+}
+
+.btn{
+	background-color:black;
+	font-weight: bold;
+	color:white;
+	padding :10px;
+	transition:none;
+}
+
+
+
+.f{
+background-color:#bdc9f8;
+    padding: 20px;
+}	
+  
+ .f2{
+background-color:#c3a8f2;
+    padding: 20px;
+}	 
+  
+.f3{
+	text-decoration:none;
+	color :black;
+}
+
+
+
+	
+
+	
+.kg{ 
+background: rgba(255, 255, 255, 0.7); 
+padding: 10px; 
+border-radius: 10px;
+ align-items: center;
+}
+	
+
+
+.sg{ 
+background: rgba(255, 255, 255, 0.9); 
+padding: 10px; 
+border-radius: 10px;
+ align-items: center;
+}
+
+	
+.carousel-indicators {
+display: none !important;
+}
+
+.carousel-control {
+background-image: none !important;
+filter: none !important;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 30px;
+color: white; / Change icon color /
+}
+
+
+
+.left.carousel-control {
+left: -80px; /* Move left arrow outside */
+}
+
+.right.carousel-control {
+    right: -80px; /* Move right arrow outside */
+}
+
+.pb{
+	background: rgba(255, 255, 255, 0.6); 
+padding: 30px; 
+border-radius: 20px;
+ align-items: right;
+}
+
+
+.table-bordered th,
+.table-bordered td {
+    border: 2px solid black !important;
+}
+
+
+
+
+
+.custom-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Alternating Backgrounds */
+.custom-list-item:nth-child(odd) {
+    background-color: #004080; /* Dark Blue */
+    color: white;
+}
+
+.custom-list-item:nth-child(even) {
+    background-color: #87CEEB; /* Light Blue */
+    color: black;
+}
+
+/* Image Styling */
+.custom-list-item img {
+    width: 20px; /* Adjust arrow size */
+    height: auto;
+}
+
+/* Text Spacing */
+.custom-list-item .col-md-11 {
+    padding-left: 10px;
+}
+
+
